@@ -8,12 +8,18 @@ body{
 .heading-1{
     font-size: 50px;
 }
+.heading-2{
+    font-size: 50px;
+}
 .text-primary{
     color: orange;
 }
-
-.top-banner{
+section{
     display: flex;
+    width: 100%;
+    padding-bottom: 150px;
+}
+.top-banner{ 
     background-image: url(./images/top-banner.png);
     background-repeat: no-repeat;
 
@@ -23,10 +29,11 @@ body{
     padding-left: 10%;
 }
 .half-width img{
-    width: 75%;
+    width: 80%;
 }
 
 .btn{
+    display: inline-block;
     text-decoration: none;
     background: linear-gradient(to right,orange,tomato);
     color: #fff;
@@ -34,4 +41,28 @@ body{
     border-radius: 6px;
     font-weight: 700;
     text-transform: uppercase;
+    margin-top: 8px;
+}
+
+.dream-heading{
+    font-size: 40px;
+}
+
+.dream-big{
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.dream-p{
+   width: 75%;
+}
+.dream-img-container img{
+    width: 80%;
+    margin-left: 40px;
+}
+.dream-half-width{
+    width: 45%;
+}
+.dream-half-width-2{
+    width: 55%;
 }
